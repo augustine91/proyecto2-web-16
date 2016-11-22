@@ -1,0 +1,9 @@
+.container-home, .container-contact, .container-about, .container-gallery{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px 15px;
+    text-align: center;
+    display: none;
+}
