@@ -1,4 +1,4 @@
-.container-home, .container-contact, .container-about, .container-gallery{
+#page_1, #page_2, #page_3, #page_4{
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
