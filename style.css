@@ -1,9 +1,35 @@
-/*#page_1, #page_2, #page_3, #page_4{
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 40px 15px;
-    text-align: center;
-    display: none;
-}*/
+#page_1, #page_2, #page_3, #page_4{
+    
+}
+body{
+	font-family:Tahoma;
+}
+
+ul{
+	list-style:none;
+}
+
+ul label{
+	width:100px;
+	float:left;
+}
+
+#frmCadastre{
+	border:solid 1px;
+}
+
+#tblList{
+	width:100%;
+	border:solid 1px;
+	text-align:left;
+   	border-collapse:collapse; 
+}
+
+#tblList tbody tr{
+	border:solid 1px;
+	height:30px;
+}
+
+#tblList thead{
+	background:beige;
+}
