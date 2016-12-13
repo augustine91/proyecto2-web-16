@@ -1,12 +1,15 @@
 /* nanoscrollbar */
+
 .nano .pane   { background: #888; }
 .nano .slider { background: #111; }
 
 body {
     /* Override bootstrap properties */
-    background-color: #374a5d !important;
+    background-color: #a5ada4 !important;
     border: 0 !important;
+    
 }
+
 
 #container{
     margin: 0 auto;
@@ -107,4 +110,11 @@ ul label{
 }
 .well{
         padding: 85px;
+}
+#musicinfo {
+    display: none;
+}
+button {
+    background-color: #000000;
+    
 }

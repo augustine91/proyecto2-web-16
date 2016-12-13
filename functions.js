@@ -11,6 +11,10 @@ $(function(){
 		tbClients = [];
 
 	function Add(){
+		if($("#txtName").val().length < 1) {
+    		alert("El nombre es obligatorio");
+    			return false;
+    		}
 		var client = JSON.stringify({
 			ID    : $("#txtID").val(),
 			Name  : $("#txtName").val(),
